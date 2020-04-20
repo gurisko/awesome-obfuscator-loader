@@ -1,20 +1,17 @@
 {
-  "name": "obfuscator-loader",
-  "version": "1.1.4",
+  "name": "awesome-obfuscator-loader",
+  "version": "2.0.0",
   "description": "A webpack loader for obfuscating single modules using javascript-obfuscator",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "linter": "eslint lib/index.js"
+    "lint": "eslint lib/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zakplus/obfuscator-loader.git"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "url": "git+https://github.com/gurisko/awesome-obfuscator-loader.git"
   },
   "keywords": [
     "webpack",
@@ -28,15 +25,19 @@
     "email": "contacts@valeriobianchi.com",
     "url": "https://valeriobianchi.com"
   },
+  "contributors": [
+    "Timofey Kachalov <sanex3339@yandex.ru>",
+    "Matus Gura <matus.gura@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zakplus/obfuscator-loader/issues"
+    "url": "https://github.com/gurisko/awesome-obfuscator-loader/issues"
   },
-  "homepage": "https://github.com/zakplus/obfuscator-loader#readme",
+  "homepage": "https://github.com/gurisko/awesome-obfuscator-loader#readme",
   "dependencies": {
     "esprima": "^4.0.0",
-    "javascript-obfuscator": "^0.24.0",
-    "loader-utils": "^1.1.0"
+    "javascript-obfuscator": "^0.27.4",
+    "loader-utils": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
