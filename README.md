@@ -1,3 +1,6 @@
+# DEPRECATED
+This package is deprecated in favor of [webpack-obfuscator](https://github.com/javascript-obfuscator/webpack-obfuscator).
+
 # awesome-obfuscator-loader
 
 Fork of [obfuscator-loader](https://github.com/javascript-obfuscator/obfuscator-loader) with Node 12 support.
